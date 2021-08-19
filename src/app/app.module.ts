@@ -10,6 +10,8 @@ import { CardComponent } from './card/card.component';
 import { CaroselComponent } from './carosel/carosel.component';
 import { ListComponent } from './list/list.component';
 import { CostComponent } from './cost/cost.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CostComponent } from './cost/cost.component';
     CardComponent,
     CaroselComponent,
     ListComponent,
-    CostComponent
+    CostComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
